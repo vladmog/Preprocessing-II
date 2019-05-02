@@ -327,3 +327,29 @@ img {
   width: 100%;
   margin: auto;
 }
+.home .space {
+  height: 2px;
+}
+.home form {
+  width: 100%;
+  line-height: 1.5rem;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.home form div {
+  width: 40%;
+  padding: 15px;
+}
+@media (max-width: 500px) {
+  .home form div {
+    width: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .home form {
+    flex-direction: column;
+    align-items: center;
+  }
+}
